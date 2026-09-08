@@ -1,12 +1,12 @@
+import Navbar from "./components/Navbar"
 
 function App() {
   
 
   return (
     <>
-     
-
-    BPL dream 11
+      <Navbar />
+    
     </>
   )
 }
