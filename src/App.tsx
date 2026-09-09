@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import Navbar from "./components/Navbar"
 import Players from "./components/players/Players";
 import type { playerType } from "./types/PlayersType";
@@ -14,13 +14,14 @@ const playersFetch=async ():Promise<playerType[]> => {
 
 function App() {
   const playersPromise=playersFetch();
+  const [coin,setcoin]=useState(500)
   
 
   return (
     <>
-      <Navbar />
+      <Navbar coin={coin}/>
     <Suspense fallback={<h2 className="text-xl font-semibold text-gray-600 tracking-wide animate-pulse">Loading Players, Please Wait..</h2>}>
-        <Players playersPromise={playersPromise}/>
+        <Players playersPromise={playersPromise} coin={coin} setcoin={setcoin}/>
     </Suspense>
     
     </>

@@ -6,7 +6,7 @@
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm medium",
     "battingStyle": "Right-hand bat",
-    "price": "$2,000,000"
+    "price": "$600"
   },
   {
     "playerName": "Pat Cummins",
@@ -15,7 +15,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm fast",
     "battingStyle": "Right-hand bat",
-    "price": "$2,200,000"
+    "price": "$200"
   },
   {
     "playerName": "Ben Stokes",
@@ -24,7 +24,7 @@
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm fast-medium",
     "battingStyle": "Left-hand bat",
-    "price": "$1,900,000"
+    "price": "$190"
   },
   {
     "playerName": "Rashid Khan",
@@ -33,7 +33,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Legbreak googly",
     "battingStyle": "Right-hand bat",
-    "price": "$1,800,000"
+    "price": "$180"
   },
    {
     "playerName": "Ben Stokes",
@@ -42,7 +42,7 @@
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm fast-medium",
     "battingStyle": "Left-hand bat",
-    "price": "$1,900,000"
+    "price": "$190"
   },
   {
     "playerName": "Rashid Khan",
@@ -51,7 +51,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Legbreak googly",
     "battingStyle": "Right-hand bat",
-    "price": "$1,800,000"
+    "price": "$150"
   },
    {
     "playerName": "Ben Stokes",
@@ -60,7 +60,7 @@
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm fast-medium",
     "battingStyle": "Left-hand bat",
-    "price": "$1,900,000"
+    "price": "$108"
   },
   {
     "playerName": "Rashid Khan",
@@ -69,7 +69,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Legbreak googly",
     "battingStyle": "Right-hand bat",
-    "price": "$1,800,000"
+    "price": "$150"
   },
    {
     "playerName": "Rashid Khan",
@@ -78,7 +78,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Legbreak googly",
     "battingStyle": "Right-hand bat",
-    "price": "$1,800,000"
+    "price": "$200"
   },
    {
     "playerName": "Rashid Khan",
@@ -87,6 +87,6 @@
     "playerType": "Bowler",
     "bowlingStyle": "Legbreak googly",
     "battingStyle": "Right-hand bat",
-    "price": "$1,800,000"
+    "price": "$500"
   }
 ]

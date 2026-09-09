@@ -1,8 +1,30 @@
 
+import { useState, type Dispatch, type SetStateAction } from 'react';
 import type { playerType } from '../../types/PlayersType';
 import { FaUserAlt } from 'react-icons/fa';
+interface IplayerCardProps{
+    player: playerType;
+       coin:number;
+         setcoin:Dispatch<SetStateAction<number>>;
+}
+const PlayerCard = ({player,coin,setcoin}:IplayerCardProps) => {
 
-const PlayerCard = ({player}:{player:playerType}) => {
+    const[isSelected,setisSelected]=useState(false)
+
+const handleSelectPlayer = () => {
+        
+        const cleanPrice = Number(player.price.replace(/[\$,]/g, ""));
+
+        if (coin < cleanPrice) {
+            alert("Not enough coins!");
+            return;
+        }
+
+        setisSelected(true);
+        const newPrice = coin - cleanPrice;
+        setcoin(newPrice);
+    }
+
     return (
         <div className="card bg-base-100 w-96 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-300 rounded-2xl overflow-hidden">
               <figure className="h-56 w-full overflow-hidden bg-gray-100">
@@ -59,8 +81,12 @@ const PlayerCard = ({player}:{player:playerType}) => {
                     <span className="text-xs text-gray-400 block">Price</span>
                     <span className="text-xl font-bold text-primary">{player.price}</span>
                   </div>
-                  <button className="btn btn-primary px-6 rounded-xl shadow-md hover:shadow-lg">
-                    Buy Now
+                  <button 
+                  onClick={()=>handleSelectPlayer()}
+                  className={`btn btn-primary px-6 rounded-xl shadow-md hover:shadow-lg`}
+                  disabled={isSelected===true? true:false}
+                  >
+                   {isSelected===true? "Selected":"Choose Player"}
                   </button>
                 </div>
               </div>
