@@ -70,5 +70,23 @@
     "bowlingStyle": "Legbreak googly",
     "battingStyle": "Right-hand bat",
     "price": "$1,800,000"
+  },
+   {
+    "playerName": "Rashid Khan",
+    "playerImage": "https://example.com/images/rashid-khan.jpg",
+    "origin": "Afghanistan",
+    "playerType": "Bowler",
+    "bowlingStyle": "Legbreak googly",
+    "battingStyle": "Right-hand bat",
+    "price": "$1,800,000"
+  },
+   {
+    "playerName": "Rashid Khan",
+    "playerImage": "https://example.com/images/rashid-khan.jpg",
+    "origin": "Afghanistan",
+    "playerType": "Bowler",
+    "bowlingStyle": "Legbreak googly",
+    "battingStyle": "Right-hand bat",
+    "price": "$1,800,000"
   }
 ]
